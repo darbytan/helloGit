@@ -13,3 +13,5 @@
 	git status
 7. 撤销staged
 	git restore --staged <file>
+8. 撤销修改
+	git checkout -- <file>
