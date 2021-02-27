@@ -9,3 +9,7 @@
 5. 版本回退
 	git reset --hard HEAD^
 		HEAD^ 表示回退到上一个版本，HEAD^ 可以用commit log 中的commit header 代替 
+6. 状态查看
+	git status
+7. 撤销add
+	git restore --staged <file>
