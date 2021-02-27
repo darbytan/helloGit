@@ -1,0 +1,11 @@
+1. 初始化仓库
+	Git init
+2. 添加文件
+	git add fileName
+3. 提交修改
+	git commit -m "commnit message"
+4. commit 历史
+	git log
+5. 版本回退
+	git reset --hard HEAD^
+		HEAD^ 表示回退到上一个版本，HEAD^ 可以用commit log 中的commit header 代替 
